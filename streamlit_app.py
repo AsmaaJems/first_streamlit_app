@@ -1,10 +1,18 @@
-import streamlit
+import streamlit as st
 
-streamlit.title('The Healthy diner')
+st.title('The UnHealthy North African Diner')
 
-streamlit.header('Breakfast Menu')
+st.header('Breakfast Menu')
 
-streamlit.text('- Tfaya')
-streamlit.text('- Tadjin Zitoun ')
-streamlit.text('- Mtewem')
-streamlit.text('- Doubara')
+st.subheader('Start with')
+st.text('Bourek')
+st.text('Chekchouka')
+st.text('Salade')
+
+st.subheader('Main course')
+st.text('Tfaya')
+st.text('Tadjin')
+st.text('Tadjin Zitoun')
+st.text('Mtewem')
+st.text('Kbab')
+st.text('Doubara')

@@ -3,7 +3,7 @@ import streamlit
 streamlit.title('The Healthy diner')
 
 streamlit.write("""
-#Breakfast Menu
+# Breakfast Menu
 - Tfaya
 - Tadjin Zitoun 
 - Mtewem
